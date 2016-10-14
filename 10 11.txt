@@ -1,2 +1,0 @@
-  PROCEDURE adm16459654_db.setCoin does not exist 程序adm16459654_db.setcoin不存在
-3.2命名空间
