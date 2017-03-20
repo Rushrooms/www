@@ -1,0 +1,173 @@
+2017-03-13 10:12:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/login".' in E:\www\yiistudy\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\www\yiistudy\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/login', Array)
+#1 E:\www\yiistudy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\www\yiistudy\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\www\yiistudy\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\www\yiistudy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\www\yiistudy\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-13 10:12:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'agik3r8qb7b2ua0vjfo628adm7'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yiis.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=agik3r8qb7b2ua0vjfo628adm7'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_111\\\\bin;C:\\Program Files\\Java\\jdk1.8.0_111\\\\jre\\bin;C:\\Windows\\System32;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55\\php.exe;D:\\composer\\composer_installer.phar;D:\\wamp\\bin\\php\\php5.5.12;D:\\wamp\\bin\\php\\php5.5.12\\zend_ext;C:\\Users\\Administrator\\AppData\\Local\\atom\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.yiis.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/yiistudy/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/yiistudy/web/'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => 'E:/www/yiistudy/web/index.php'
+    'REMOTE_PORT' => '51675'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/login'
+    'REQUEST_URI' => '/?r=admin/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489371143.222
+    'REQUEST_TIME' => 1489371143
+]
+2017-03-13 10:12:53 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/public/' in E:\www\yiistudy\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\www\yiistudy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#1 E:\www\yiistudy\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/public', Array)
+#2 E:\www\yiistudy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\www\yiistudy\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\www\yiistudy\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\www\yiistudy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\www\yiistudy\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-13 10:12:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'agik3r8qb7b2ua0vjfo628adm7'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yiis.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=agik3r8qb7b2ua0vjfo628adm7'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_111\\\\bin;C:\\Program Files\\Java\\jdk1.8.0_111\\\\jre\\bin;C:\\Windows\\System32;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55\\php.exe;D:\\composer\\composer_installer.phar;D:\\wamp\\bin\\php\\php5.5.12;D:\\wamp\\bin\\php\\php5.5.12\\zend_ext;C:\\Users\\Administrator\\AppData\\Local\\atom\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.yiis.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/yiistudy/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/yiistudy/web/'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => 'E:/www/yiistudy/web/index.php'
+    'REMOTE_PORT' => '51686'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public'
+    'REQUEST_URI' => '/?r=admin/public'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489371173.758
+    'REQUEST_TIME' => 1489371173
+]
+2017-03-13 10:12:58 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/public/admin' in E:\www\yiistudy\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\www\yiistudy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('admin', Array)
+#1 E:\www\yiistudy\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/public/ad...', Array)
+#2 E:\www\yiistudy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\www\yiistudy\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\www\yiistudy\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\www\yiistudy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\www\yiistudy\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-13 10:12:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/admin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'agik3r8qb7b2ua0vjfo628adm7'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yiis.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=agik3r8qb7b2ua0vjfo628adm7'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_111\\\\bin;C:\\Program Files\\Java\\jdk1.8.0_111\\\\jre\\bin;C:\\Windows\\System32;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55\\php.exe;D:\\composer\\composer_installer.phar;D:\\wamp\\bin\\php\\php5.5.12;D:\\wamp\\bin\\php\\php5.5.12\\zend_ext;C:\\Users\\Administrator\\AppData\\Local\\atom\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.yiis.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/yiistudy/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/yiistudy/web/'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => 'E:/www/yiistudy/web/index.php'
+    'REMOTE_PORT' => '51687'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/public/admin'
+    'REQUEST_URI' => '/?r=admin/public/admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1489371178.495
+    'REQUEST_TIME' => 1489371178
+]
